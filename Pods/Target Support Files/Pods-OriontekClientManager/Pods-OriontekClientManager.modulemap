@@ -1,0 +1,6 @@
+framework module Pods_OriontekClientManager {
+  umbrella header "Pods-OriontekClientManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

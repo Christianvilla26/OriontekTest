@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F792D0D26430C1500985C1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F792D0C26430C1500985C1D /* AppDelegate.swift */; };
+		1F792D0F26430C1500985C1D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F792D0E26430C1500985C1D /* SceneDelegate.swift */; };
+		1F792D1426430C1500985C1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F792D1226430C1500985C1D /* Main.storyboard */; };
+		1F792D1626430C1600985C1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F792D1526430C1600985C1D /* Assets.xcassets */; };
+		1F792D1926430C1600985C1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F792D1726430C1600985C1D /* LaunchScreen.storyboard */; };
+		1F792D2526430C6B00985C1D /* ClientService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F792D2426430C6B00985C1D /* ClientService.swift */; };
+		1F792D2B26430C9000985C1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F792D2726430C9000985C1D /* ViewController.swift */; };
+		1F792D2C26430C9000985C1D /* DirectionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F792D2826430C9000985C1D /* DirectionsTableViewController.swift */; };
+		1F792D2D26430C9000985C1D /* DirectionsModalViewContreoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F792D2926430C9000985C1D /* DirectionsModalViewContreoller.swift */; };
+		1F792D2E26430C9000985C1D /* ClientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F792D2A26430C9000985C1D /* ClientViewController.swift */; };
+		1F792D3126430C9900985C1D /* ClientModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F792D3026430C9900985C1D /* ClientModel.swift */; };
+		1F792D3426430CCE00985C1D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F792D3326430CCE00985C1D /* GoogleService-Info.plist */; };
+		512263A95236B817730DA1BE /* Pods_OriontekClientManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD85E4495EAAE67959276A5 /* Pods_OriontekClientManager.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07B976EE00D4171FEC8EC385 /* Pods-OriontekClientManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OriontekClientManager.release.xcconfig"; path = "Target Support Files/Pods-OriontekClientManager/Pods-OriontekClientManager.release.xcconfig"; sourceTree = "<group>"; };
+		1F792D0926430C1500985C1D /* OriontekClientManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OriontekClientManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F792D0C26430C1500985C1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F792D0E26430C1500985C1D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1F792D1326430C1500985C1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F792D1526430C1600985C1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F792D1826430C1600985C1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F792D1A26430C1600985C1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F792D2426430C6B00985C1D /* ClientService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientService.swift; sourceTree = "<group>"; };
+		1F792D2726430C9000985C1D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F792D2826430C9000985C1D /* DirectionsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectionsTableViewController.swift; sourceTree = "<group>"; };
+		1F792D2926430C9000985C1D /* DirectionsModalViewContreoller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectionsModalViewContreoller.swift; sourceTree = "<group>"; };
+		1F792D2A26430C9000985C1D /* ClientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientViewController.swift; sourceTree = "<group>"; };
+		1F792D3026430C9900985C1D /* ClientModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientModel.swift; sourceTree = "<group>"; };
+		1F792D3326430CCE00985C1D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		234CF11E6F8A474D99C8FCE3 /* Pods-OriontekClientManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OriontekClientManager.debug.xcconfig"; path = "Target Support Files/Pods-OriontekClientManager/Pods-OriontekClientManager.debug.xcconfig"; sourceTree = "<group>"; };
+		BFD85E4495EAAE67959276A5 /* Pods_OriontekClientManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OriontekClientManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F792D0626430C1500985C1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				512263A95236B817730DA1BE /* Pods_OriontekClientManager.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F792D0026430C1500985C1D = {
+			isa = PBXGroup;
+			children = (
+				1F792D0B26430C1500985C1D /* OriontekClientManager */,
+				1F792D0A26430C1500985C1D /* Products */,
+				DF6E767AA527E06862AF56C8 /* Pods */,
+				494A236133135D971D8C314B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1F792D0A26430C1500985C1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F792D0926430C1500985C1D /* OriontekClientManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F792D0B26430C1500985C1D /* OriontekClientManager */ = {
+			isa = PBXGroup;
+			children = (
+				1F792D2326430C4C00985C1D /* ViewControllers */,
+				1F792D2226430C3F00985C1D /* Models */,
+				1F792D2126430C3800985C1D /* Services */,
+				1F792D0C26430C1500985C1D /* AppDelegate.swift */,
+				1F792D0E26430C1500985C1D /* SceneDelegate.swift */,
+				1F792D1226430C1500985C1D /* Main.storyboard */,
+				1F792D1526430C1600985C1D /* Assets.xcassets */,
+				1F792D1726430C1600985C1D /* LaunchScreen.storyboard */,
+				1F792D1A26430C1600985C1D /* Info.plist */,
+				1F792D3326430CCE00985C1D /* GoogleService-Info.plist */,
+			);
+			path = OriontekClientManager;
+			sourceTree = "<group>";
+		};
+		1F792D2126430C3800985C1D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1F792D2426430C6B00985C1D /* ClientService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1F792D2226430C3F00985C1D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1F792D3026430C9900985C1D /* ClientModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1F792D2326430C4C00985C1D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1F792D2A26430C9000985C1D /* ClientViewController.swift */,
+				1F792D2926430C9000985C1D /* DirectionsModalViewContreoller.swift */,
+				1F792D2826430C9000985C1D /* DirectionsTableViewController.swift */,
+				1F792D2726430C9000985C1D /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		494A236133135D971D8C314B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFD85E4495EAAE67959276A5 /* Pods_OriontekClientManager.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF6E767AA527E06862AF56C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				234CF11E6F8A474D99C8FCE3 /* Pods-OriontekClientManager.debug.xcconfig */,
+				07B976EE00D4171FEC8EC385 /* Pods-OriontekClientManager.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F792D0826430C1500985C1D /* OriontekClientManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F792D1D26430C1600985C1D /* Build configuration list for PBXNativeTarget "OriontekClientManager" */;
+			buildPhases = (
+				B6BC5206C358726C4517E354 /* [CP] Check Pods Manifest.lock */,
+				1F792D0526430C1500985C1D /* Sources */,
+				1F792D0626430C1500985C1D /* Frameworks */,
+				1F792D0726430C1500985C1D /* Resources */,
+				E306346CD5558E03C13C30B3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OriontekClientManager;
+			productName = OriontekClientManager;
+			productReference = 1F792D0926430C1500985C1D /* OriontekClientManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F792D0126430C1500985C1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					1F792D0826430C1500985C1D = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 1F792D0426430C1500985C1D /* Build configuration list for PBXProject "OriontekClientManager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F792D0026430C1500985C1D;
+			productRefGroup = 1F792D0A26430C1500985C1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F792D0826430C1500985C1D /* OriontekClientManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F792D0726430C1500985C1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F792D1926430C1600985C1D /* LaunchScreen.storyboard in Resources */,
+				1F792D3426430CCE00985C1D /* GoogleService-Info.plist in Resources */,
+				1F792D1626430C1600985C1D /* Assets.xcassets in Resources */,
+				1F792D1426430C1500985C1D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B6BC5206C358726C4517E354 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OriontekClientManager-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E306346CD5558E03C13C30B3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OriontekClientManager/Pods-OriontekClientManager-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OriontekClientManager/Pods-OriontekClientManager-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OriontekClientManager/Pods-OriontekClientManager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F792D0526430C1500985C1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F792D2B26430C9000985C1D /* ViewController.swift in Sources */,
+				1F792D0D26430C1500985C1D /* AppDelegate.swift in Sources */,
+				1F792D2E26430C9000985C1D /* ClientViewController.swift in Sources */,
+				1F792D2526430C6B00985C1D /* ClientService.swift in Sources */,
+				1F792D0F26430C1500985C1D /* SceneDelegate.swift in Sources */,
+				1F792D2C26430C9000985C1D /* DirectionsTableViewController.swift in Sources */,
+				1F792D3126430C9900985C1D /* ClientModel.swift in Sources */,
+				1F792D2D26430C9000985C1D /* DirectionsModalViewContreoller.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1F792D1226430C1500985C1D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F792D1326430C1500985C1D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F792D1726430C1600985C1D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F792D1826430C1600985C1D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F792D1B26430C1600985C1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1F792D1C26430C1600985C1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F792D1E26430C1600985C1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 234CF11E6F8A474D99C8FCE3 /* Pods-OriontekClientManager.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8H89YL6TY5;
+				INFOPLIST_FILE = OriontekClientManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cvilla.OriontekClientManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F792D1F26430C1600985C1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07B976EE00D4171FEC8EC385 /* Pods-OriontekClientManager.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8H89YL6TY5;
+				INFOPLIST_FILE = OriontekClientManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cvilla.OriontekClientManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F792D0426430C1500985C1D /* Build configuration list for PBXProject "OriontekClientManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F792D1B26430C1600985C1D /* Debug */,
+				1F792D1C26430C1600985C1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F792D1D26430C1600985C1D /* Build configuration list for PBXNativeTarget "OriontekClientManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F792D1E26430C1600985C1D /* Debug */,
+				1F792D1F26430C1600985C1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F792D0126430C1500985C1D /* Project object */;
+}
