@@ -63,6 +63,23 @@ class DirectionsTableViewController: UITableViewController {
         self.performSegue(withIdentifier: "DirectionModal", sender: SelectedClient)
      }
     
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        let alert = UIAlertController(title: "Oriontek Client Manager", message: "Select one option above", preferredStyle: .alert)
+
+        
+        alert.addAction(UIAlertAction(title: "Delete", style: .default, handler: {_ in
+            ClientService.shared.DeleteUserDirection(ClientID: self.SelectedClient.id!, Direction: self.DirectionArray[indexPath.row])
+            self.DirectionArray.remove(at: indexPath.row)
+            self.tableView.reloadData()
+        }))
+        alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
+
+        self.present(alert, animated: true)
+        
+        
+    }
+    
 
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
