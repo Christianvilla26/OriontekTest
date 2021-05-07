@@ -10,7 +10,7 @@ import UIKit
 class DirectionsModalViewContreoller: UIViewController {
     
     var SelectedClient = ClientModel(id: "", name: "")
-    var TempSrtuct: [String:Directions] = [:]
+    var TempSrtuct: [Any] = []
     @IBOutlet weak var StreetNameTextField: UITextField!
     @IBOutlet weak var NameTextField: UITextField!
     @IBOutlet weak var PostalCode: UITextField!
@@ -18,6 +18,14 @@ class DirectionsModalViewContreoller: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print(TempSrtuct)
+        
+        if(TempSrtuct.count < 0){
+            print(TempSrtuct)
+            
+            StreetNameTextField.text = (TempSrtuct[1] as! Directions).streetName
+            NameTextField.text = (TempSrtuct[1] as! Directions).name
+            PostalCode.text = (TempSrtuct[1] as! Directions).postalCode
+        }
        
         // Do any additional setup after loading the view.
     }

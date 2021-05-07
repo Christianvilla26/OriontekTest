@@ -66,6 +66,15 @@ class DirectionsTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
         let alert = UIAlertController(title: "Oriontek Client Manager", message: "Select one option above", preferredStyle: .alert)
+        
+//        alert.addAction(UIAlertAction(title: "Edit", style: .default, handler: {_ in
+//            
+//            var EditArray:[Any] = []
+//            EditArray.append(self.SelectedClient)
+//            EditArray.append(self.DirectionArray[indexPath.row])
+//            self.performSegue(withIdentifier: "editDirection", sender: EditArray)
+//            
+//        }))
 
         
         alert.addAction(UIAlertAction(title: "Delete", style: .default, handler: {_ in
@@ -91,9 +100,9 @@ class DirectionsTableViewController: UITableViewController {
         }
         if segue.identifier == "editDirection"
         {
-            let TempSrtuct = sender as! Dictionary<String, Directions>
+            let EditArray = sender as! Array<Any>
             let DirectionModal:DirectionsModalViewContreoller = segue.destination as! DirectionsModalViewContreoller
-            DirectionModal.TempSrtuct = TempSrtuct
+            DirectionModal.TempSrtuct = EditArray
         }
     }
     
